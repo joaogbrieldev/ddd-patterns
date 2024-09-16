@@ -1,3 +1,5 @@
+import { Address } from "./address";
+
 class Customer {
   _id: string;
   _name: string;
