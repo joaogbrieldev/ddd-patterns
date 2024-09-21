@@ -1,3 +1,6 @@
+import Product from "../entity/product.ts";
+import ProductService from "../service/product.service.ts";
+
 describe("Product service unit tests", () => {
   it("should change the prices of all products", () => {
     const product1 = new Product("product1", "Product 1", 10);
