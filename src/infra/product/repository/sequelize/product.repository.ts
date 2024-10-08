@@ -1,6 +1,6 @@
-import Product from "../../../domain/entity/product/product";
-import ProductInterface from "../../../domain/entity/product/product.interface";
-import ProductModel from "./sequelize/product.model";
+import Product from "../../../../domain/entity/product/product";
+import ProductInterface from "../../../../domain/entity/product/product.interface";
+import ProductModel from "./product.model";
 
 export default class ProductRepository implements ProductInterface {
   get id(): string {
