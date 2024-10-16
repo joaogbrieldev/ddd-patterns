@@ -1,8 +1,15 @@
 import Order from "../../../../domain/entity/orders/order";
+import IOderRepository from "../../../../domain/order/order-repository.interface";
 import OrderItemModel from "./order-item.model";
 import OrderModel from "./order-model";
 
-export default class OrderRepository {
+export default class OrderRepository implements IOderRepository {
+  find(id: string): Promise<Order> {
+    throw new Error("Method not implemented.");
+  }
+  findAll(): Promise<Order[]> {
+    throw new Error("Method not implemented.");
+  }
   async create(entity: Order): Promise<void> {
     await OrderModel.create(
       {
@@ -21,5 +28,8 @@ export default class OrderRepository {
         include: [{ model: OrderItemModel }],
       }
     );
+  }
+  async update(entity: Order): Promise<void> {
+    throw new Error("Method not implemented.");
   }
 }
