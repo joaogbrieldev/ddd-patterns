@@ -1,1 +1,4 @@
-export default interface IEventDispacher {}
+export default interface IEvent {
+  dataTimeOccured: Date;
+  eventData: any;
+}
