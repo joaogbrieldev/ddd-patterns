@@ -1,5 +1,5 @@
-import Order from "../../../../domain/entity/orders/order";
-import IOderRepository from "../../../../domain/order/order-repository.interface";
+import Order from "../../../../domain/checkout/orders/order";
+import IOderRepository from "../../../../domain/checkout/repository/order-repository.interface";
 import OrderItemModel from "./order-item.model";
 import OrderModel from "./order-model";
 
