@@ -1,9 +1,9 @@
 import { Sequelize } from "sequelize-typescript";
 
-import Customer from "../../../../domain/entity/customer/customer";
-import Order from "../../../../domain/entity/orders/order";
-import OrderItem from "../../../../domain/entity/orders/orderItem";
-import Product from "../../../../domain/entity/product/product";
+import Order from "../../../../domain/checkout/orders/order";
+import OrderItem from "../../../../domain/checkout/orders/orderItem";
+import Customer from "../../../../domain/customer/entity/customer";
+import Product from "../../../../domain/product/entity/product";
 import Address from "../../../../value-object/address";
 import CustomerModel from "../../../customer/repository/sequelize/customer.model";
 import CustomerRepository from "../../../customer/repository/sequelize/customer.repository";

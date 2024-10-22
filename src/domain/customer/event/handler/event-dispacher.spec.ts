@@ -1,6 +1,6 @@
 import Address from "../../../../value-object/address"
-import Customer from "../../../entity/customer/customer"
-import EventDispatcher from "../event-dispacher"
+import EventDispatcher from "../../../event/@shared/event-dispacher"
+import Customer from "../../entity/customer"
 import { SendConsoleLogWhenAddressIsChangedHandler, SendEmailWhenCustomerIsCreatedHandler } from "./handler/send-msg.handler"
 
 describe("create customer tests", () => {

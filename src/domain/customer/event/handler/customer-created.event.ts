@@ -1,4 +1,4 @@
-import IEvent from "../event.interface";
+import IEvent from "../../../event/@shared/event.interface";
 
 export class CreateCustomerEvent implements IEvent {
   dataTimeOccured: Date;
