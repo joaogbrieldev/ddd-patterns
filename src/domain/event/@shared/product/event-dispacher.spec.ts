@@ -1,6 +1,6 @@
-import EventDispatcher from "./event-dispacher";
-import SendEmailWhenProductIsCreatedHandler from "./product/handler/send-email.handler";
-import ProductCreatedEvent from "./product/product-created.event";
+import EventDispatcher from "../event-dispacher";
+import SendEmailWhenProductIsCreatedHandler from "./handler/send-email.handler";
+import ProductCreatedEvent from "./product-created.event";
 
 
 describe(("Domain events tests"), () => {
