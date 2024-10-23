@@ -1,5 +1,5 @@
 import Address from "../../../../value-object/address"
-import EventDispatcher from "../../../event/@shared/event-dispacher"
+import EventDispatcher from "../../../@shared/events/event-dispacher"
 import Customer from "../../entity/customer"
 import { SendConsoleLogWhenAddressIsChangedHandler, SendEmailWhenCustomerIsCreatedHandler } from "./handler/send-msg.handler"
 
