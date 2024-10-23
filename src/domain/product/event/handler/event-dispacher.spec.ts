@@ -1,4 +1,4 @@
-import EventDispatcher from "../../../event/@shared/event-dispacher";
+import EventDispatcher from "../../../@shared/events/event-dispacher";
 import ProductCreatedEvent from "./product-created.event";
 import SendEmailWhenProductIsCreatedHandler from "./send-email.handler";
 
